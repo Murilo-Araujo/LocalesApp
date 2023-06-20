@@ -61,11 +61,6 @@ public class Main {
 
 For more detailed information about the classes, methods, and usage, refer to the inline comments in the source code.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-Feel free to modify and adapt the code to suit your needs.
 
 ## Disclaimer
 
