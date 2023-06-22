@@ -1,5 +1,6 @@
 package utfpr;
 
+import javax.swing.DefaultListModel;
 import utfpr.model.State;
 import utfpr.model.Region;
 import utfpr.model.County;
@@ -41,7 +42,7 @@ public class Main {
 
         // Obter o JSON dos municípios do estado com ID 41
         String countyJson = County.getCountyByState(41);
-
+        
         // Converter o JSON em um array de objetos JSON
         JSONArray countyArray = new JSONArray(countyJson);
 
