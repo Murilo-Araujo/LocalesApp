@@ -21,7 +21,7 @@ public class JDialog extends javax.swing.JDialog {
      * Creates new form JDialog
      */
     public JDialog(java.awt.Frame parent, boolean modal) {
-        super(parent, "Meu JDialog", true);
+        super(parent, "Informations", true);
         
         initComponents();
     }
@@ -149,31 +149,56 @@ public class JDialog extends javax.swing.JDialog {
 
         jLabel12.setText("Region Acronym:");
 
+        municipioNome.setEditable(false);
+
+        municipioID.setEditable(false);
         municipioID.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 municipioIDActionPerformed(evt);
             }
         });
 
+        microRegionID.setEditable(false);
+        microRegionID.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                microRegionIDActionPerformed(evt);
+            }
+        });
+
+        microRegionName.setEditable(false);
         microRegionName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 microRegionNameActionPerformed(evt);
             }
         });
 
+        mesoRegionID.setEditable(false);
         mesoRegionID.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 mesoRegionIDActionPerformed(evt);
             }
         });
 
+        mesoRegionName.setEditable(false);
+
+        stateID.setEditable(false);
         stateID.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 stateIDActionPerformed(evt);
             }
         });
 
-        jLabel13.setText("Informacoes gerais do município");
+        stateAcro.setEditable(false);
+
+        stateName.setEditable(false);
+
+        regionName.setEditable(false);
+
+        regionID.setEditable(false);
+
+        regionAcro.setEditable(false);
+
+        jLabel13.setText("General city information:");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -308,6 +333,10 @@ public class JDialog extends javax.swing.JDialog {
     private void microRegionNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_microRegionNameActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_microRegionNameActionPerformed
+
+    private void microRegionIDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_microRegionIDActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_microRegionIDActionPerformed
 
     /**
      * @param args the command line arguments
