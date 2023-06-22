@@ -48,11 +48,9 @@ public class County {
         return microregion;
     }
 
+    @Override
+    public String toString() {
+        return name;
+    }
+ 
 }
-
-
-
-
-
-
-

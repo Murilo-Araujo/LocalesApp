@@ -56,6 +56,13 @@ public class State {
     public Region getRegion() {
         return region;
     }
+
+    @Override
+    public String toString() {
+        return name+" - "+acronym ;
+    }
+    
+    
     
     
     
